@@ -185,11 +185,11 @@ Unluckily, there is no support for logging with Weights & Biases for this script
 ### Citation
 Thank you for taking an interest in our work! If you found our paper or some of this code useful, please consider citing:
 ```
-@inproceedings{Farina2024MULTIFLOW, 
-title={MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning}, 
-author={Matteo Farina and Massimiliano Mancini and Elia Cunegatti and Gaowen Liu and Giovanni Iacca and Elisa Ricci}, 
-booktitle={Computer Vision and Pattern Recognition (CVPR)}, 
-year={2024} 
+@article{farina2024multiflow,
+  title={MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning},
+  author={Farina, Matteo and Mancini, Massimiliano and Cunegatti, Elia and Liu, Gaowen and Iacca, Giovanni and Ricci, Elisa},
+  journal={arXiv preprint arXiv:2404.05621},
+  year={2024}
 }
 ```
 
