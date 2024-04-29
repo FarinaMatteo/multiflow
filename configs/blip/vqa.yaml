@@ -28,7 +28,7 @@ inference: 'rank'
 # optimization config
 init_lr: 2e-5
 optimizer: {init_lr: 2e-5, weight_decay: 0.05, min_lr: 0}
-scheduler: {epochs: 3, num_warmup_steps: 0, sched: cosine}
+scheduler: {epochs: 10, num_warmup_steps: 0, sched: cosine}
 
 wandb_data:
   name: your_run_name
