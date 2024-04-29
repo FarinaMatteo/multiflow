@@ -12,8 +12,9 @@ We also presented `MULTIFLOW`, a simple and fast pruning algorithm for Vision-La
 Happy to see you here ✨
 
 ## Updates 🗞️
+[April 29th, 2024] - The pruning masks for all models are now available [here](https://drive.google.com/drive/folders/11DDZsEFV86YsXHFvLqIXHL_prwsNaqpg?usp=drive_link) ✂️  
+[April 9th, 2024] - Code Released! I am working on a tutorial on how to add support for arbitrary `nn.Module` instances. Stay tuned!  
 [March 8th, 2024] - Public Repo online, the code will be out very soon!  
-[April 9th, 2024] - Code Released! I am working on a tutorial on how to add support for arbitrary `nn.Module` instances. Stay tuned! 
 
 ## Install all dependencies 💻
 This project was developed with Python-3.10.8 and tested under Ubuntu-22.04. You can find all dependencies in the `deps` folder, both as a standard list of pip requirements and as a conda environment. To create a conda environment for this project, run `conda env create -f deps/environment.yaml`. To install dependencies using pip, run `pip install -r deps/requirements.txt`.
