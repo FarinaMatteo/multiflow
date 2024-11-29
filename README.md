@@ -8,8 +8,18 @@ Official implementation of the paper "MULTIFLOW: Shifting Towards Task-Agnostic 
 In this work we investigated the possibility of pruning Vision-Language Models *once* while maintaining transferability to *unknown* downstream tasks.
 We also presented `MULTIFLOW`, a simple and fast pruning algorithm for Vision-Language Models.
 
-
 Happy to see you here ✨
+
+### Citation
+Thank you for taking an interest in our work! If you found our paper or some of this code useful, please consider citing:
+```
+@inproceedings{farina2024multiflow,
+  title={MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning},
+  author={Farina, Matteo and Mancini, Massimiliano and Cunegatti, Elia and Liu, Gaowen and Iacca, Giovanni and Ricci, Elisa},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024}
+}
+```
 
 ## Updates 🗞️
 [April 29th, 2024] - The pruning masks for all models are now available [here](https://drive.google.com/drive/folders/11DDZsEFV86YsXHFvLqIXHL_prwsNaqpg?usp=drive_link) ✂️  
@@ -182,17 +192,6 @@ You can select which dataset you want to use by passing the `--dataset` argument
 **Run the experiment.** You can now run `image_classification.py` passing an appropriate `--mask` argument or the `--dense` flag. If you use the default arguments, you should be able to reproduce the results in the paper. 
 
 Unluckily, there is no support for logging with Weights & Biases for this script. However, the code is wrapped with Lightning Fabric, so you can use it as a template to build multi-device unimodal finetuning. Please bear in mind that I have always used only one GPU device for the experiments of the main paper.
-
-### Citation
-Thank you for taking an interest in our work! If you found our paper or some of this code useful, please consider citing:
-```
-@article{farina2024multiflow,
-  title={MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning},
-  author={Farina, Matteo and Mancini, Massimiliano and Cunegatti, Elia and Liu, Gaowen and Iacca, Giovanni and Ricci, Elisa},
-  journal={arXiv preprint arXiv:2404.05621},
-  year={2024}
-}
-```
 
 ### Acknowledgements
 We acknowledge the CINECA award under the ISCRA initiative for the availability of high-performance
