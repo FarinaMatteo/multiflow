@@ -1,9 +1,18 @@
-# [CVPR 2024] MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning
-Official implementation of the paper "MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning", CVPR 2024.  
+<div align="center">
 
+  <h2>CVPR 2024<br>MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning</h2>
+
+  <p>
+    <a href="https://scholar.google.com/citations?user=SxQwDD8AAAAJ">Matteo Farina</a>,
+    <a href="https://scholar.google.com/citations?user=bqTPA8kAAAAJ">Massimiliano Mancini</a>,
+    <a href="https://scholar.google.com/citations?user=a2JJRjMAAAAJ">Elia Cunegatti</a>,
+    <a href="https://scholar.google.com/citations?user=NIv_aeQAAAAJ">Gaowen Liu</a>,
+    <a href="https://scholar.google.com/citations?user=qSw6YfcAAAAJ">Giovanni Iacca</a> and
+    <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ">Elisa Ricci</a>
+  </p>
+  
 [![arXiv](https://img.shields.io/badge/arXiv-2404.05621-b31b1b.svg)](https://arxiv.org/abs/2404.05621)
-
-**Authors**: [Matteo Farina](https://scholar.google.com/citations?user=SxQwDD8AAAAJ&hl=it&oi=ao), [Massimiliano Mancini](https://scholar.google.com/citations?hl=it&user=bqTPA8kAAAAJ), [Elia Cunegatti](https://scholar.google.com/citations?hl=it&user=a2JJRjMAAAAJ), [Gaowen Liu](https://scholar.google.com/citations?hl=it&user=NIv_aeQAAAAJ), [Giovanni Iacca](https://scholar.google.com/citations?hl=it&user=qSw6YfcAAAAJ), [Elisa Ricci](https://scholar.google.com/citations?hl=it&user=xf1T870AAAAJ).
+</div>
 
 In this work we investigated the possibility of pruning Vision-Language Models *once* while maintaining transferability to *unknown* downstream tasks.
 We also presented `MULTIFLOW`, a simple and fast pruning algorithm for Vision-Language Models.
